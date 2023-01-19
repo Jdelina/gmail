@@ -7,20 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>HTML Forms</h2>
-
-<form action="https://formsubmit.co/jamie.delina@kodego.ph" method="POST">
-   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" ><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" ><br>
-  <label for="message">Special Request</label><br>
-  <textarea style="height:100px" required></textarea>
-  <br> <br>
-  <input type="submit" value="Submit">
+  <div class="container">
+  <h2>HTML Forms</h2>
+<form action="">
+  <input type="text"  name="fname" placeholder="Full name" required><br>
+  <input type="email"  name="Email" placeholder="Email" required><br>
+  <select name="Color"> 
+    <option>BLUE </option>
+    <option>RED</option>
+    <option>GREEN</option>
+    <option> YELLOW</option>
+  </select>
+  <br>
+  <textarea name="Message" placeholder="Message" required> </textarea> <br>
+  <button type="submit">Send </button>
 </form> 
+</div>
 
 <p>If you click the "Submit" button, the form-data will be sent to your email.</p>
 </body>
